@@ -6,3 +6,4 @@ public interface Bike {
 	   void speed();   
 	 
 }
+ 
