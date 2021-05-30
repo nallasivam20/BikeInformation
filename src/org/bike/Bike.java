@@ -3,6 +3,9 @@ package org.bike;
 public interface Bike {
 
 	   void cost();
-	   void speed();   
+	   void speed();
+	   void colour();
+	   void model();
 	 
 }
+ 
