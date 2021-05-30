@@ -13,23 +13,29 @@ public class Ktm implements Bike{
 	 }
 	 private void m1()
 	 {
-		 System.out.println("m1 method");
+		 System.out.println("m1 method.. detailed message will reach u in few days ");
 	 }
 	 
-	 public void m2()
-	 {
-		 System.out.println("m2");
-	 }
+	
 	 
-	 public void m3()
-	 {
-		 System.out.println("m3");
-	 }
-	    
+	 @Override
+		public void colour() {
+			System.out.println("pink color");
+		}
+
+		@Override
+		public void model() {
+              System.out.println("tel the model , specialities");
+			
+		}
 	 public static void main(String[] args) {
 		Ktm k = new Ktm();
 		k.speed();
 		k.cost();
 		k.m1();
+		k.colour();
+		k.model();
 	}
+
+	
 }
